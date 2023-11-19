@@ -43,11 +43,11 @@ Este es un compilador simple que permite realizar operaciones matemáticas bási
 
 - **AnalizadorSintactico:** Realiza el análisis sintáctico de la expresión, verificando la estructura gramatical de las operaciones matemáticas.
 
-##Requisitos
+## Requisitos
 
 - **Python 3.x**
 
-##Instalacion
+## Instalacion
 
 Clona este repositorio en tu máquina local:
 ``` 
@@ -66,24 +66,24 @@ python main.py
 
 ## Uso del Compilador <a name = "uso_del_compilador"></a>
 
-##Menu principal
+## Menu principal
 El programa presenta un menú interactivo con las siguientes opciones:
 
 - **Ejecutar línea:** Permite ingresar una expresión matemática y ver el resultado.
 - **Seleccionar archivo:** Lee un archivo de texto con expresiones matemáticas y muestra los resultados.
 - **Salir:** Cierra el compilador.
 
-##Ejecutar linea (opcion 1)
+## Ejecutar linea (opcion 1)
 
 - Ingresa una expresión matemática cuando se te solicite y observa el resultado.
 
-##Seleccionar archivo (opcion 2)
+## Seleccionar archivo (opcion 2)
 
 - Ingresa el nombre o la ruta del archivo que contiene expresiones matemáticas.
 - El compilador procesará cada línea del archivo y mostrará los resultados.
 
 ## Ejemplos <a name = "ejemplo_de_uso"></a>
-##Opcion 1 (Ejecutar linea)
+## Opcion 1 (Ejecutar linea)
 ```python
 Entrada
 >>> 2 + 3 * 4
@@ -92,7 +92,7 @@ Salida
 10
 
 ```
-##Opcion 2 (Seleccionar archivo)
+## Opcion 2 (Seleccionar archivo)
 - Crea un archivo de texto (ejemplos.txt) con las siguientes líneas:
 ```
 5 + 8
@@ -102,7 +102,7 @@ SEN(45)
 - Observa los resultados en la consola.
 
 
-##Como funciona
+## Como funciona
 
 1. **Entrada de Expresión:** El usuario proporciona una expresión matemática al compilador.
 
@@ -117,10 +117,10 @@ SEN(45)
 
 Este ejemplo muestra cómo instanciar el compilador, proporcionar una expresión matemática y obtener el resultado después de realizar el análisis léxico, sintáctico y semántico.
 
-##Contribuciones <a name = "contribuciones"></a>
+## Contribuciones <a name = "contribuciones"></a>
 ¡Las contribuciones son bienvenidas! Si encuentras algún problema o tienes ideas para mejorar el compilador, no dudes en abrir un problema o enviar una solicitud de extracción.
 
-##Licencia <a name = "licencia"></a>
+## Licencia <a name = "licencia"></a>
 Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para obtener más detalles.
 
 Espero que este compilador sea útil y educativo. ¡Disfruta explorando y experimentando con el código!
